@@ -1,0 +1,53 @@
+.schedules-container {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('/public/mandala_background.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  text-align: center;
+  color: white; 
+  padding-top: 20px;
+}
+
+.schedules-list {
+  list-style-type: circle; 
+  padding: 0;
+  margin: 0;
+  color: darkblue; 
+}
+
+.schedule-specifics {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+.show-specifics {
+  font-size: 16px;
+  color: darkblue; 
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.show-specifics:hover {
+  color: lightblue; 
+}
+
+.schedules-list li {
+  color: darkblue; 
+}
+
+.Homepage {
+  background-color: lightblue;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.Homepage:hover {
+  background-color: mediumblue;
+}

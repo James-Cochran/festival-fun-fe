@@ -10,7 +10,9 @@ const HomePage = () => {
         <Link to={"/users"}>
         <button className='users'> Users </button>
         </Link>
-        <button onClick={() => console.log('Navigate to Schedules')}>Schedules</button>
+        <Link to={"/schedules"}>
+        <button className='schedules'> Schedules </button>
+        </Link>
       </div>
     </div>
   );

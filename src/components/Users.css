@@ -21,14 +21,25 @@
 .user-specifics {
   font-size: 18px;
   padding: 10px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid darkblue;
   color: darkblue
+}
+
+.user-specifics-link {
+  font-weight: bold;
+  color: darkblue;
+}
+.user-specifics-link:hover .user-specifics {
+  background-color: mediumblue;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .back-home-link {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 30px;
+  padding: 8px 16px;
   background-color: lightblue;
   color: white;
   text-decoration: none;
