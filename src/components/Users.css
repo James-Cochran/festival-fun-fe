@@ -1,0 +1,40 @@
+.users-container {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  background-image: url('/public/mandala_background.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  text-align: center;
+  color: white; 
+  padding-top: 20px;
+}
+
+.users-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-specifics {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  color: darkblue
+}
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-home-link:hover {
+  background-color: mediumblue;
+}
