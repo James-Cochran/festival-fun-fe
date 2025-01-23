@@ -30,24 +30,23 @@ const Schedules = () => {
       })
   }, [userId])
 
-  const deleteShow = (scheduleId, showId) => {
-    console.log("scheduleId", scheduleId)  
-    console.log("showId", showId)  
-  
+  const deleteShow = (scheduleId, showId) => {  
     fetch(`http://localhost:3000/api/v1/schedules/${scheduleId}/shows/${showId}`, {
       method: 'DELETE',
     })
       .then(response => response.json())
       .then(data => {
-        console.log("delete response data: ", data) 
   
         if (data.message) {
           setSchedules(prevSchedules => 
             prevSchedules.map(schedule => {
               if (schedule.id === scheduleId) {
                 return {
-                  ...schedule,  
-                  shows: (schedule.shows || []).filter(show => show.id !== showId)
+                  ...schedule, 
+                  attributes: {
+                    ...schedule.attributes,
+                    shows: (schedule.attributes.shows || []).filter(show => show.id !== showId)
+                  } 
                 }
               }
               return schedule
