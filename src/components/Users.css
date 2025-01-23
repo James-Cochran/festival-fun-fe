@@ -49,3 +49,35 @@
 .back-home-link:hover {
   background-color: mediumblue;
 }
+
+@media screen and (max-width: 768px) {
+  .users-container {
+    padding-top: 10px;  
+  }
+
+  .user-specifics {
+    font-size: 16px;  
+    padding: 8px 0;  
+  }
+
+  .back-home-link {
+    padding: 6px 12px;  
+    font-size: 16px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .users-container {
+    padding-top: 5px;  
+  }
+
+  .user-specifics {
+    font-size: 14px;  
+    padding: 6px 0; 
+  }
+
+  .back-home-link {
+    padding: 5px 10px;  
+    font-size: 14px;  
+  }
+}

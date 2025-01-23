@@ -16,7 +16,7 @@ const Users = () => {
           const nameB = `${b.attributes.first_name} ${b.attributes.last_name}`
           return nameA.localeCompare(nameB)
         })
-        setUsers(data.data)
+        setUsers(sortedUsers)
         setLoading(false) 
       })
       .catch((err) => {

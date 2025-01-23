@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "users",
+      "attributes": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john@yahoo.com"
+      }
+    },
+    {
+      "id": "2",
+      "type": "users",
+      "attributes": {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "deer@aol.com"
+      }
+    },
+    {
+      "id": "3",
+      "type": "users",
+      "attributes": {
+        "first_name": "Bob",
+        "last_name": "Johnson",
+        "email": "bob@johnson.com"
+      }
+    }
+  ]
+}
