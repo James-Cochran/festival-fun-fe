@@ -55,9 +55,9 @@ Festival Fun Frontend is a React-based application designed to provide users wit
 
 ## Screenshots
 
-```markdown
+
 ![Homepage](homepage.png)
-```
+
 ---
 
 ## Testing
