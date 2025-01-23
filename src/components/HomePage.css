@@ -36,3 +36,44 @@ button {
 button:hover {
   background-color: mediumblue; 
 }
+
+@media screen and (max-width: 768px) {
+  .homepage {
+    padding-top: 10px;  
+  }
+
+  h1 {
+    font-size: 60px;  
+    margin-bottom: 30px; 
+  }
+
+  .navigation-buttons {
+    gap: 16px;  
+  }
+
+  button {
+    padding: 15px 30px;  
+    font-size: 20px;  
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homepage {
+    padding-top: 5px; 
+  }
+
+  h1 {
+    font-size: 40px; 
+    margin-bottom: 20px;  
+  }
+
+  .navigation-buttons {
+    flex-direction: column;  
+    gap: 16px;  
+  }
+
+  button {
+    padding: 12px 24px;  
+    font-size: 18px;  
+  }
+}

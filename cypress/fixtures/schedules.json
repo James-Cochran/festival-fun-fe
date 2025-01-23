@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "schedules",
+      "attributes": {
+        "title": "Summer Fest",
+        "shows": [
+          {
+            "id": "1",
+            "artist": "Sonic Youth",
+            "genre": "Rock",
+            "location": "Park"
+          },
+          {
+            "id": "2",
+            "artist": "Portishead",
+            "genre": "Trip Hop",
+            "location": "Arena"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "type": "schedules",
+      "attributes": {
+        "title": "Winter Vibes",
+        "shows": [
+          {
+            "id": "3",
+            "artist": "Glen Miller",
+            "genre": "Jazz",
+            "location": "Theater"
+          }
+        ]
+      }
+    }
+  ]
+}

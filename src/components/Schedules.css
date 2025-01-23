@@ -51,3 +51,43 @@
 .Homepage:hover {
   background-color: mediumblue;
 }
+
+@media screen and (max-width: 768px) {
+  .schedules-container {
+    padding-top: 10px;  
+  }
+
+  .schedules-list {
+    font-size: 14px; 
+  }
+
+  .schedule-specifics {
+    font-size: 18px; 
+  }
+
+  .show-specifics {
+    font-size: 14px; 
+  }
+
+  .Homepage {
+    padding: 8px 15px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .schedules-container {
+    padding-top: 5px; 
+  }
+
+  .schedules-list {
+    font-size: 12px; 
+  }
+
+  .schedule-specifics {
+    font-size: 16px; 
+  }
+
+  .show-specifics {
+    font-size: 12px; 
+  }
+}

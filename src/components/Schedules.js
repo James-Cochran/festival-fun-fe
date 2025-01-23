@@ -47,7 +47,7 @@ const Schedules = () => {
               if (schedule.id === scheduleId) {
                 return {
                   ...schedule,  
-                  shows: schedule.shows.filter(show => show.id !== showId) 
+                  shows: (schedule.shows || []).filter(show => show.id !== showId)
                 }
               }
               return schedule
